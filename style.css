@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-size: 16px;
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.order-btn {
+  background: #2131b6;
+  box-shadow: 0px 4px 34px rgba(9, 44, 76, 0.16);
+  width: 20%;
+  padding: 20px;
+  border: none;
+  border-radius: 30px;
+}
+
+.order-btn a,
+.contact-btn a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.order-btn:hover,
+.contact-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(15, 8, 8, 0.884);
+}
+
+.heading-text {
+  font-size: 59px;
+  font-weight: 600;
+}
+
+.carousel-caption {
+  top: 25%;
+  right: 16%;
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel-caption {
+    top: 30%;
+    right: 20%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .carousel-caption {
+    top: 8%;
+    right: 15%;
+  }
+  .order-btn {
+    width: 70%;
+  }
+  .heading-text {
+    font-size: 32px;
+  }
+}
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+.carousel-indicators .active {
+  background-color: #2131b6;
+}
+
+.ff {
+  background-image: url(./images/Airport-Limo1.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 863px;
+}
+
+.ft {
+  margin: auto;
+  padding: 218px 50px;
+}
+
+.fnt {
+  color: #2131b6;
+  font-size: 20px;
+  padding-bottom: 2rem;
+}
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+}
+.contact-btn {
+  width: 30%;
+  padding: 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: #2131b6;
+}
+
+.ch {
+  background-image: url(./images/Rectangle9.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 863px;
+}
+
+.tf {
+  padding: 100px 0px 50px 150px;
+  margin: 0 auto;
+}
+
+.fnt-sz {
+  font-size: 59px;
+}
+
+.flat {
+  width: 50px;
+  height: 1px;
+  border: 1px solid #2131b6;
+  margin: 0 auto;
+}
+.cl {
+  color: #2131b6;
+}
+
+body {
+  background-color: #f0f1f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.memories {
+  background-image: url(./images/Rectangle41.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+}
+.memo-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  z-index: 1;
+}
+
+.memo-text a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-memo {
+  width: 334px;
+  background-color: #2131b6;
+  height: 59px;
+  text-align: center;
+  padding: 16px;
+}
+
+.img {
+  width: 447px;
+  height: 397px;
+}
+
+.img-wrapper {
+  text-align: center;
+}
+
+.fc {
+  display: flex;
+  width: 15%;
+  margin: 0 auto;
+}
+
+.img-cont {
+  position: relative;
+}
+
+.img-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #05090e77;
+  color: white;
+  text-align: center;
+}
+.imgtext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
